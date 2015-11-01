@@ -12,6 +12,7 @@
 		271BD4381BE5A0BB002AF202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271BD4361BE5A0BB002AF202 /* Main.storyboard */; };
 		271BD43A1BE5A0BB002AF202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271BD4391BE5A0BB002AF202 /* Assets.xcassets */; };
 		271BD43D1BE5A0BB002AF202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271BD43B1BE5A0BB002AF202 /* LaunchScreen.storyboard */; };
+		271BD44B1BE5A46E002AF202 /* CurrentWeather.plist in Resources */ = {isa = PBXBuildFile; fileRef = 271BD44A1BE5A46E002AF202 /* CurrentWeather.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		271BD4391BE5A0BB002AF202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271BD43C1BE5A0BB002AF202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271BD43E1BE5A0BB002AF202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271BD44A1BE5A46E002AF202 /* CurrentWeather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CurrentWeather.plist; path = ../CurrentWeather.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				271BD4361BE5A0BB002AF202 /* Main.storyboard */,
 				271BD4391BE5A0BB002AF202 /* Assets.xcassets */,
 				271BD43B1BE5A0BB002AF202 /* LaunchScreen.storyboard */,
+				271BD44A1BE5A46E002AF202 /* CurrentWeather.plist */,
 				271BD43E1BE5A0BB002AF202 /* Info.plist */,
 			);
 			path = Stormy;
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				271BD43D1BE5A0BB002AF202 /* LaunchScreen.storyboard in Resources */,
+				271BD44B1BE5A46E002AF202 /* CurrentWeather.plist in Resources */,
 				271BD43A1BE5A0BB002AF202 /* Assets.xcassets in Resources */,
 				271BD4381BE5A0BB002AF202 /* Main.storyboard in Resources */,
 			);
@@ -284,6 +288,7 @@
 				271BD4431BE5A0BB002AF202 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
