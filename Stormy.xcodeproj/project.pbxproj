@@ -13,6 +13,7 @@
 		271BD43A1BE5A0BB002AF202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271BD4391BE5A0BB002AF202 /* Assets.xcassets */; };
 		271BD43D1BE5A0BB002AF202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271BD43B1BE5A0BB002AF202 /* LaunchScreen.storyboard */; };
 		271BD44D1BE5A74D002AF202 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271BD44C1BE5A74D002AF202 /* CurrentWeather.swift */; };
+		32D5F2421BE7BEDB00DC0B19 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D5F2411BE7BEDB00DC0B19 /* NetworkOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		271BD43C1BE5A0BB002AF202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271BD43E1BE5A0BB002AF202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		271BD44C1BE5A74D002AF202 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		32D5F2411BE7BEDB00DC0B19 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				271BD43B1BE5A0BB002AF202 /* LaunchScreen.storyboard */,
 				271BD43E1BE5A0BB002AF202 /* Info.plist */,
 				271BD44C1BE5A74D002AF202 /* CurrentWeather.swift */,
+				32D5F2411BE7BEDB00DC0B19 /* NetworkOperation.swift */,
 			);
 			path = Stormy;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D5F2421BE7BEDB00DC0B19 /* NetworkOperation.swift in Sources */,
 				271BD4351BE5A0BB002AF202 /* ViewController.swift in Sources */,
 				271BD44D1BE5A74D002AF202 /* CurrentWeather.swift in Sources */,
 				271BD4331BE5A0BB002AF202 /* AppDelegate.swift in Sources */,
